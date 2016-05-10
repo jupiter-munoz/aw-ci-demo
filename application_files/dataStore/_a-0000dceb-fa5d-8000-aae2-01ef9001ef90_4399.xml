@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <dataStore>
+        <uuid>_a-0000dceb-fa5d-8000-aae2-01ef9001ef90_4399</uuid>
+        <name>Invoices</name>
+        <description></description>
+        <dataSourceKey>jdbc/AppianAnywhere</dataSourceKey>
+        <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
+        <autoUpdateSchema>true</autoUpdateSchema>
+        <entities>
+            <entity>
+                <uuid>ff2278fc-2b7d-4541-b546-2403274a142f</uuid>
+                <name>InvoiceStatus</name>
+                <type>{urn:com:appian:types:DS}InvoiceStatus</type>
+            </entity>
+            <entity>
+                <uuid>9f3841aa-ce85-4776-93b7-432a123bda8d</uuid>
+                <name>InvoicePriority</name>
+                <type>{urn:com:appian:types:DS}InvoicePriority</type>
+            </entity>
+            <entity>
+                <uuid>3e1b6a73-8b34-4026-9591-fcf01b62b897</uuid>
+                <name>InvoiceIndustry</name>
+                <type>{urn:com:appian:types:DS}InvoiceIndustry</type>
+            </entity>
+            <entity>
+                <uuid>c7b4a6b9-2780-4cc7-843d-6436c9b66012</uuid>
+                <name>InvoiceCustomer</name>
+                <type>{urn:com:appian:types:DS}InvoiceCustomer</type>
+            </entity>
+            <entity>
+                <uuid>7e70df18-bd61-4a6e-8896-8bbd47082bd0</uuid>
+                <name>InvoiceChange</name>
+                <type>{urn:com:appian:types:DS}InvoiceChange</type>
+            </entity>
+            <entity>
+                <uuid>6ba36699-7cb7-49ed-beac-562b29533719</uuid>
+                <name>Invoice</name>
+                <type>{urn:com:appian:types:DS}Invoice</type>
+            </entity>
+        </entities>
+    </dataStore>
+    <isPublished>true</isPublished>
+    <roleMap>
+        <role allowForAll="false" inherit="false" name="administrators">
+            <users/>
+            <groups>
+                <groupUuid>SYSTEM_GROUP_ROLE_QUICK_APP_CREATORS</groupUuid>
+            </groups>
+        </role>
+        <role allowForAll="false" inherit="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="readers">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000dceb-fa07-8000-aae2-011e94011e94_53</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+</dataStoreHaul>
