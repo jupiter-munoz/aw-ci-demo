@@ -90,11 +90,17 @@
             <el>
                 <a:name>Mar 2016</a:name>
                 <a:ruleInputTestConfigs>
-                    <a:value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" xsi:type="xsd:date"/>
+                    <a:value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:date">2016-03-09Z</a:value>
                     <a:nameRef>date</a:nameRef>
                     <a:id>1</a:id>
                 </a:ruleInputTestConfigs>
-                <a:assertions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <a:assertions>
+                    <a:expectedOutput>
+                        <a:type a:uuid="{http://www.appian.com/ae/types/2009}Text"/>
+                        <a:runtimeType a:uuid="{http://www.appian.com/ae/types/2009}Text"/>
+                        <a:value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">2016-3</a:value>
+                    </a:expectedOutput>
+                </a:assertions>
             </el>
         </value>
     </typedValue>

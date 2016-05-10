@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataSourceHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <dataSourceInfo>
+        <uuid>38e62cdb-7248-4f47-8637-7a825ea27445</uuid>
+        <name>jdbc/sales</name>
+        <type>MySQL</type>
+        <connectionString>jdbc:mysql://localhost:3306/ds2?useOldAliasMetadataBehavior=true</connectionString>
+    </dataSourceInfo>
+</dataSourceHaul>

@@ -59,10 +59,10 @@
         </type>
         <value>
             <el>
-                <a:name>Assert Total # of Status</a:name>
+                <a:name>Assert Total # of Statuses</a:name>
                 <a:assertions>
                     <a:expectedOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <a:resultAssertions>length(test!output)=4</a:resultAssertions>
+                    <a:resultAssertions>length(test!output)=5</a:resultAssertions>
                 </a:assertions>
             </el>
         </value>
